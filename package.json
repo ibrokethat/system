@@ -18,7 +18,10 @@
     "type": "git",
     "url": "git@github.com:ibrokethat/system"
   },
-  "main": "system",
+  "ibrokethat": {
+    "buildClient": true
+  },
+  "main": "system.js",
   "scripts": {
     "prepublish" : "npm prune",
     "test": "mocha -u bdd"
